@@ -63,4 +63,4 @@ R.sendline('XWRFU RHEFU\n')
 #Sub-level 3
 R.recvuntil("Find the private key using the above parameters and decrypt the cipher :)\n")
 R.sendline(' 10345295233944396887943876753831874740008291550286592508017\n')
-#R.recvuntil("Your key to opening the last door is: HUFFLEPUFF\n")
+R.recvuntil("Your key to opening the last door is: HUFFLEPUFF\n")
