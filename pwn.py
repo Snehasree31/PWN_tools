@@ -54,13 +54,16 @@ R.sendline(' ' + str(listToStr))
 R.recvuntil("Sub-level: 1\n")
 ci=R.recv()
 ci=ci[21:-85]
-R.sendline('bqxosnz@RBHH^oq0ms3ak2|\n')
+R.sendline(' ')
+R.sendline(' ')
 
 #Sub-level 2
 R.recvuntil("Hint: Blaise Pascal? --> Cipher?\n")
-R.sendline('XWRFU RHEFU\n')
+R.sendline(' ')
 
 #Sub-level 3
 R.recvuntil("Find the private key using the above parameters and decrypt the cipher :)\n")
-R.sendline(' 10345295233944396887943876753831874740008291550286592508017\n')
-R.recvuntil("Your key to opening the last door is: HUFFLEPUFF\n")
+R.sendline('  ')
+#R.recvuntil("Hint: If it was a simple hex to ascii conversion, why would you need a key?\n\n> ")
+#print(R.recv())
+
