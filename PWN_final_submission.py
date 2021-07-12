@@ -52,12 +52,11 @@ R.sendline(' ' + str(listToStr))
 
 #Sub-level 1
 R.recvuntil("Here's a hint too: When do you know that your cipher is decoded and is correct?\n")
-R.sendline(b' crypto{ASCII_pr1nt4bl3}')
+R.sendline(' crypto{ASCII_pr1nt4bl3}')
 
 
 #Sub-level 2
 R.recvuntil("Hint: Blaise Pascal? --> Cipher?\n")
-#R.interactive()
 R.sendline('EMYPU DDVAQ')
 
 #Sub-level 3
@@ -72,8 +71,4 @@ R.sendline('YELLOW SUBMARINE!!')
 R.recvuntil("Your flag is: fa{_mS07_0_47b4_3!}!m73_ncuY!rm_aIgl\n> ")
 R.sendline('flag{I_am_Sm0r7!_Y0u_c4n7_b347_m3!!}')
 R.interactive()
-
-
-
-
 
